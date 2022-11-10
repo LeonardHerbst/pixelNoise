@@ -8,5 +8,5 @@ class BasicRandomFiller(PixelFiller):
     def __init__(self, seed):
         random.seed(seed)
 
-    def fill(self, colorPalette: ColorPalette) -> Color:
-        return colorPalette.getColor(random.randint(2, 4))
+    def fill(self, color_palette: ColorPalette) -> Color:
+        return color_palette.get_color(random.randint(2, 4))
