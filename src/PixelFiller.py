@@ -6,7 +6,7 @@ from colour import Color
 class PixelFiller(ABC):
 
     @abstractmethod
-    def fill(self, color_palette: ColorPalette) -> Color:
+    def fill(self, pixel_array: [[Color]]) -> [[float]]:
         pass
 
 
