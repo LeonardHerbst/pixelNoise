@@ -1,8 +1,8 @@
-from src.ColorPalette import ColorPalette
-from src.SpacialRandomFiller import SpacialRandomFiller
-from src.PngRenderer import PngRenderer
+from ColorPalette import ColorPalette
+from SpacialRandomFiller import SpacialRandomFiller
+from PngRenderer import PngRenderer
 from colour import Color
-from src.MatplotlibRenderer import MatplotlibRenderer
+from MatplotlibRenderer import MatplotlibRenderer
 
 import dearpygui.dearpygui as dpg
 

@@ -1,0 +1,6 @@
+colour==0.1.5
+dearpygui==2.0.0
+matplotlib==3.10.1
+noise==1.2.2
+numpy==2.2.4
+pypng==0.20220715.0

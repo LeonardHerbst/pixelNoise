@@ -5,7 +5,7 @@ import noise
 import numpy as np
 import matplotlib.pyplot as plt
 
-from src.ColorPalette import ColorPalette
+from ColorPalette import ColorPalette
 
 
 class MatplotlibRenderer(Renderer):

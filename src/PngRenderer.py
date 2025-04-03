@@ -1,7 +1,7 @@
 import math
 
-from src.ColorPalette import ColorPalette
-from src.Renderer import Renderer
+from ColorPalette import ColorPalette
+from Renderer import Renderer
 import png
 
 
